@@ -29,6 +29,7 @@ pygame.camera.init()
 kamera = pygame.camera.Camera(pygame.camera.list_cameras()[0])
 kamera.start()
 img = kamera.get_image()
+
 star = "***************************************************************"
 
 print star
