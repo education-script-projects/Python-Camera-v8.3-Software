@@ -36,10 +36,9 @@ print star
 
 img_name = raw_input("Fotoğrafınıza bir isim belirleyiniz (example.jpg) : ")
 pygame.image.save(img, img_name)
-yükleniyor = "Fotoğrafınız kaydedildi... ( Yükleniyor... %100 )"
+yukleniyor = "Fotoğrafınız kaydedildi... ( Yükleniyor... %100 )"
 
-print yükleniyor
-
+print yukleniyor
 print star
 
 pygame.camera.quit()
